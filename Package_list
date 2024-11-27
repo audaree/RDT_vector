@@ -1,0 +1,15 @@
+To use the Mk3_model program, ensure you have the following packages installed:
+
+# List of packages (and their functions) used in the modules below
+using DataFrames: DataFrame, ncol, nrow
+using Dates: Day, Date, Dates, DateTime, Hour, Microsecond, Minute, Month, now, Time, unix2datetime, Year
+#using FilePathsBase
+using Flux: Adam, Chain, Dense, Flux, mse, params, relu, train!
+using Glob: glob
+using JLD2: @load, @save, jldopen
+using NativeFileDialog: pick_file, pick_folder
+using Plots:  annotate!, font, hline!, hspan!, plot, Plots, plotly, plot!, scatter!, text, vline!, xlims, ylims, @layout
+using Printf: @sprintf
+using Sockets: gethostname
+using Statistics: mean, median, quantile, std
+using Tk: Button, Frame, Tk, Toplevel, Treeview, bind, destroy, get_value, pack, scrollbars_add, tcl
