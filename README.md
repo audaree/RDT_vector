@@ -8,7 +8,7 @@ Mk3_Model: uses an autoencoder model and training data to detect outlies in .RDF
 - Handles data from Mk3 and DWR-G buoys.
 
 ## Requirements
-- Julia v1.x
+- Julia v1.10.x
 - Dependencies listed in `Project.toml` and `Manifest.toml`.
 
 ## Usage
