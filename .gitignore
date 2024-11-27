@@ -1,0 +1,6 @@
+# Exclude following files and directories
+Model/
+Training_data/
+Data/
+Plots/
+*.png
